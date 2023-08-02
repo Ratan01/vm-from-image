@@ -17,7 +17,7 @@ output "id" {
 
 # Locate the existing custom image
 data "azurerm_image" "main" {
-  name                = "myPackerImageratan_vm_image_dn"
+  name                = "ratan_vm_image_dn"
   resource_group_name = "ratan"
 }
 

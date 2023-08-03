@@ -1,11 +1,14 @@
 provider "azurerm" {
+  subscription_id = "fab6bd82-e9fb-4229-91d4-476d41c138fb"
+  client_id       = "a8e8fcb7-ee3a-4260-8942-73671d830a1a"
+  client_secret   = "Vg38Q~5UG4N_2ANoRGdra9Bzqfi-~mVXex4WodiA"
+  tenant_id       = "dc07ee3a-4d6e-436e-b3f4-29e1cc532ced"
   features {}
 }
 
 # Locate the existing resource group
 data "azurerm_resource_group" "rg" {
   name = "ratan"
-  location = "EAST US"
 }
 
 output "id" {

@@ -22,7 +22,7 @@ data "azurerm_image" "img" {
 }
 
 output "image_id" {
-  value = "/subscriptions/fab6bd82-e9fb-4229-91d4-476d41c138fb/resourceGroups/ratan/providers/Microsoft.Compute/images/my_image_gallery/ratan_vm_image_dn"
+  value = "/subscriptions/fab6bd82-e9fb-4229-91d4-476d41c138fb/resourceGroups/ratan/my_image_gallery/ratan_vm_image_dn"
 }
 
 # Create a Network Security Group with some rules
